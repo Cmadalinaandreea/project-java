@@ -3,7 +3,7 @@ public class Strings {
 
 	public static void main(String[] args) {
 		int numar =1;
-		String text = "caca";
+		String text = "text";
 	
 		String blank = " ";
 		
@@ -13,8 +13,8 @@ public class Strings {
 	
 		
 		System.out.println(greeting);
-		System.out.println("Bob"+" "+ "caca");
-		System.out.println("Bob"+ " " +numar);
+		System.out.println("Bob" + " " + "text");
+		System.out.println("Bob" + " " + numar);
 	}
 
 }

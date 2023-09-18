@@ -29,7 +29,7 @@ public class arrays {
 		 */
 
 		// string array
-		String[] words = { "caca", "mama", "maca" };
+		String[] words = { "rosu", "verde", "portocaliu" };
 
 		/*
 		 * for(int i=0; i<words.length;i++) { System.out.println(words[i]); }

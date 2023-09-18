@@ -8,7 +8,7 @@ public class Loops {
 
 		// while loop
 		while (value < 10) {
-			System.out.println("caca" + value);
+			System.out.println("Value" + value);
 
 			value = value + 1;
 		}
@@ -25,24 +25,17 @@ public class Loops {
 		} else if (myint > 20) {
 			System.out.println("no is false");
 		} else {
-			System.out.println("caca");
+			System.out.println("neighter of them");
 		}
 
 		// do while loop
 		Scanner scanner = new Scanner(System.in);
 
-		/*
-		 * System.out.println("Da si tu un numar: "); 
-		 * int valuee = scanner.nextInt();
-		 * 
-		 * while(valuee != 5){ System.out.println("enter numbir: "); valuee =
-		 * scanner.nextInt(); }
-		 */
 
 		int valuee= 0;
 		
 		do {
-			System.out.println("Da si tu un numar: "); 
+			System.out.println("Enter a number: "); 
 			valuee = scanner.nextInt();
 		}
 		while(valuee != 5);
